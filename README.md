@@ -56,6 +56,7 @@ There are 2 independent subdirectories: `tonic` and `grpc`. Both of them include
 | Full async/await support | Yes | No |
 | Request and response streaming | Yes | Yes |
 | TLS-based authentication | Yes | Yes |
+
 If you are familiar with asynchronous programming in some programming languages such as C#, Javascript,..., `tonic` may be your suitable choice. Otherwise, if you are used to working with Golang or C++ gRPC, choose `grpc` to make it consistent with your current programming languages (and your projects).
 
 ### Prerequisites (for `grpc` only)
