@@ -63,6 +63,7 @@ If you are familiar with asynchronous programming in some programming languages 
 
 `grpc` requires `protoc-gen-rust-grpc` to generate Rust code for proto message. You can install it via cargo
 ```
+ sudo apt install protobuf-compiler
  cargo install grpc-compiler
 ```
 `build.rs` files generate Rust code for proto message every build time. But if you want to manually generate it, use `protoc` command (it will generate both protobuf and grpc code)
